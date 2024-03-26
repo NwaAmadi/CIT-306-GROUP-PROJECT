@@ -11,3 +11,64 @@
     background-size: cover;
     position: relative;
 }
+
+.form-box .h1{
+    color: darkgreen;
+    font-size: 20px;
+    margin-bottom: 60px;
+    font-family: segoe ui;
+
+}
+.form-box{
+    width: 40%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f3f3f3;
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(117, 117, 117, 0.8);
+}
+
+.input-field{
+    background: #e9e6e6fa;
+    margin: 15px 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+.gender select[name="gender"]{
+    background: #e9e6e6fa;
+    margin: 15px 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 40px; 
+    appearance: none;
+    padding-left: 15px;
+    padding-right: 60%;
+}
+
+select[name="gender"] option {
+    background-color: #fff;
+    color: #333;
+    margin: 10px;
+}
+form p{
+    text-decoration: none;
+}
