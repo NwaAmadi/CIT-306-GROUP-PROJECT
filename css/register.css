@@ -5,8 +5,8 @@
 }
 .container{
     width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(90, 158, 124, 0.8),rgb(207, 223, 215)), url(/assets/FormBackground.jpg);
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(90, 158, 124, 0.8),rgb(207, 223, 215)), url(/assets/FB2.png);
     background-position: right;
     background-size: cover;
     position: relative;
@@ -15,22 +15,24 @@
 .container .form-box h1{
     color: darkgreen;
     font-size: 25px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     font-family: segoe ui;
 
 }
 .form-box{
-    width: 40%;
+    width: 50%;
     max-width: 450px;
     position: absolute;
     top: 50%;
     left: 50%;
+    margin-top: -15px;
     transform: translate(-50%, -50%);
     background: #f3f3f3;
     padding: 50px 60px 70px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(117, 117, 117, 0.8);
+    box-shadow: 0 4px 8px rgba(14, 14, 14, 0.8);
 }
 
 .input-field{
@@ -41,12 +43,13 @@
     align-items: center;
     
 }
+
 input{
     width: 100%;
     background: transparent;
     border: 0;
     outline: 0;
-    padding: 18px 15px;
+    padding: 16px 13px;
 }
 
 .gender select[name="gender"]{
@@ -78,4 +81,20 @@ form p{
 form p a{
     text-decoration: none;
     color: darkgreen;
+}
+button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    border-radius: 9px;
+    background: darkgreen;
+    color: #fff;
+}
+button:hover{
+    background-color: #fff;
+    color: darkgreen;
+    font-weight: bold;
+    border-color: darkgreen;
 }
