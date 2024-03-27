@@ -19,7 +19,7 @@
 
     $stmt->bind_param("sssssis", $fname, $lname, $email, $country, $city, $number, $gender);
     if ($stmt->execute()) {
-        echo "Form Sub,ission sucessful";
+        echo "Form Submission sucessful!.....";
     }
     else {
         echo "Error: ".$sql."<br>".$conn->error;
