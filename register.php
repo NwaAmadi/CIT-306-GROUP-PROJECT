@@ -6,7 +6,7 @@
     <title>Registraton form</title>
     <link rel="stylesheet" href="css/register.css">
     <style>
-        .card-container {
+    .card-container {
     width: 400px;
     height: 340px;
     background-color: white; 
