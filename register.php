@@ -6,30 +6,30 @@
     <title>Registraton form</title>
     <link rel="stylesheet" href="css/register.css">
     <style>
-    .card-container {
-    width: 400px;
-    height: 340px;
-    background-color: white; 
-    position: absolute;
-    top: 50%; 
-    left: 50%;
-    transform: translate(-50%,-50%);
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
-}
-img{
-   width: 300px;
-   height: auto;
-   padding-left: 50px;
+        .card-container {
+            width: 400px;
+            height: 340px;
+            background-color: white; 
+            position: absolute;
+            top: 50%; 
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+        }
+        img{
+            width: 300px;
+            height: auto;
+            padding-left: 50px;
 
-}
-p{
-    font-weight: bold;
-    font-size:  large;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgba(36, 36, 36, 0.699);
-}
+        }
+        p{
+            font-weight: bold;
+            font-size:  large;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgba(36, 36, 36, 0.699);
+        }
     </style>
 </head>
 <body>
