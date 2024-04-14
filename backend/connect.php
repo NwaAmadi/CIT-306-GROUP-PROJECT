@@ -14,7 +14,7 @@
 
     $conn = new mysqli($servername, $username, $password,$dbname);
 
-    $sql = "INSERT INTO user_details (`fname`, `lname`, email, country, city, `number`, gender)
+    $sql = "INSERT INTO user_details (`First Name`, `Last Name`, Email, Country, City, `Phone`, Gender)
      VALUES ('$fname','$lname','$email','$country','$city','$number','$gender')";
     $stmt = $conn->query($sql);
 
