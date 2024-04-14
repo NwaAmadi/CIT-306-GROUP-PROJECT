@@ -14,16 +14,17 @@
 
     $conn = new mysqli($servername, $username, $password,$dbname);
 
-    $sql = "INSERT INTO details (`First Name`, `Last Name`, Email, Country, City, Phone, Gender) VALUES (?,?,?,?,?,?,?)";
-    $stmt = $conn->prepare($sql);
+    $sql = "INSERT INTO user_details (`fname`, `lname`, email, country, city, `number`, gender)
+     VALUES ('$fname','$lname','$email','$country','$city','$number','$gender')";
+    $stmt = $conn->query($sql);
 
-    $stmt->bind_param("sssssis", $fname, $lname, $email, $country, $city, $number, $gender);
-    if ($stmt->execute()) {
+    if ($stmt) {
         echo "Form Submission sucessful!.......";
     }
     else {
         echo "Error: ".$sql."<br>".$conn->error;
     }
-    $stmt->close();
     $conn->close();
+    header('Location: ../register.php?register=success');
+    exit();
 ?>
