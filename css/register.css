@@ -6,7 +6,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(90, 158, 124, 0.8),rgb(207, 223, 215)), url(/assets/FB2.png);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.829),rgb(255, 255, 255)), url(/assets/Background.jpeg);
     background-position: right;
     background-size: cover;
 }
@@ -17,7 +17,6 @@
     padding-bottom: 10px;
     padding-top: 10px;
     font-family: segoe ui;
-
 }
 .form-box{
     width: 50%;
@@ -31,7 +30,7 @@
     padding: 50px 60px 70px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(14, 14, 14, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 .input-field{

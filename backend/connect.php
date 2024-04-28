@@ -19,12 +19,15 @@
     $stmt = $conn->query($sql);
 
     if ($stmt) {
-        echo "Form Submission sucessful!.......";
+        header('Location: ../card.html');
+        sleep(5);
+        echo '<meta http-equiv="refresh"content="5;url=../index.html">';
+        exit();
     }
     else {
         echo "Error: ".$sql."<br>".$conn->error;
     }
     $conn->close();
-    header('Location: ../register.php?register=success');
+    header('Location: ../register.html?register=success');
     exit();
 ?>

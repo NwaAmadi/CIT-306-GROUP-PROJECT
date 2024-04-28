@@ -1,0 +1,113 @@
+body{
+    background-color: #f3f0f0;
+}
+
+nav {
+    background-color: #f3f0f0;
+    padding: 10px;
+    overflow: auto;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 0px 20px rgba(1, 5, 5, 0.2);
+    font-family: Inter, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica, Arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 20px;
+}
+
+#left-links {
+    float: left;
+    display: inline;
+    padding: 10px;
+    padding-bottom: 2px;
+    padding-left: 30px;
+}
+
+#right-links {
+    float: right;
+    display: inline;
+    padding: 10px;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+nav a {
+    color: darkgreen;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: rgb(134, 136, 138);
+    border-radius: 12px;
+    color: #ffffff;
+}
+.image-container{
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+.map{
+    padding-left: 10px;
+    color: rgb(134, 136, 138);
+    padding-bottom: 19px;
+    text-align: center;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+}
+.map h2{
+    padding-left: 10px;
+    color: rgb(134, 136, 138);
+    padding-bottom: 19px;
+    text-align: center;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.map iframe{
+    height: 500px;
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.excellence{
+    padding-left: 10px;
+    color: rgb(134, 136, 138);
+    padding-bottom: 19px;
+    text-align: center;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+}
+.excellence iframe{
+    height: 500px;
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.excellence h3{
+    text-align: center;
+}
