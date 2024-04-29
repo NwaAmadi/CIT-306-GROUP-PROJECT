@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -53,69 +53,56 @@ nav a:hover {
     border-radius: 12px;
     color: #ffffff;
 }
-.image-containeri{
+.image-container{
     position: absolute;
     margin-top: 9px;
     margin-left: 5px;
-    
 }
-.header{
-    text-align: center;
-    margin-top: 20px;
-    color: #555;
-}
+
 .container {
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-
-.speaker {
-    background-color: #f9f9f9;
-    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background-color: #f3f0f0;
+    margin-top: 30px;
+}
+
+h1 {
     text-align: center;
-    width: 300px; 
-    margin: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    
-
-}
-.speaker3 {
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-    width: 300px; 
-    margin: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    height: 550px;
-
-}
-.speaker3 img{
-    max-width: 100%;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    width: 100%;
-}
-.speaker-info{
-    flex-grow: 1;
+    color: darkgreen;
 }
 
-.speaker img {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    width: 100%;
+.schedule {
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
-.speaker-info h2 {
-    margin-top: 0; 
-    margin-bottom: 10px;
+.day {
+    margin-bottom: 30px;
 }
 
-.speaker-info p {
-    color: #555;
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0;
+}
+
+.time {
+    font-weight: bold;
+    color: #007bff; /* Blue color for time */
 }

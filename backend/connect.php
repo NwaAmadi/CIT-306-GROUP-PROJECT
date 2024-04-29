@@ -19,12 +19,14 @@
     $stmt = $conn->query($sql);
 
     if ($stmt) {
+        header('Location: ../card.html');
+        sleep(3);
+        header('Location: ../index.html');
         exit();
     }
     else {
         echo "Error: ".$sql."<br>".$conn->error;
     }
     $conn->close();
-    header('Location: ../register.html?register=success');
     exit();
 ?>
