@@ -19,9 +19,6 @@
     $stmt = $conn->query($sql);
 
     if ($stmt) {
-        header('Location: ../card.html');
-        sleep(5);
-        echo '<meta http-equiv="refresh"content="5;url=../index.html">';
         exit();
     }
     else {

@@ -64,7 +64,7 @@ nav a:hover {
 }
 
 .banner {
-    background-image: url('/assets/banner1.jpg');
+    background-image: url('/assets/banner1.jpeg');
     background-size: cover;
     height: 400px;
     display: flex;
@@ -77,14 +77,15 @@ nav a:hover {
     
 }
 .about{
+    margin-left: 10px;
     margin-top: 3%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #ffff;
     border-radius: 10px;
-    width: 250px;
+    width: 300px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    max-width: 40%;
+    max-width: 50%;
     height: auto;
 }
 .about-img img{
@@ -112,7 +113,7 @@ nav a:hover {
     grid-template-columns: 1fr 1fr;
     background-color: #ffff;
     border-radius: 10px;
-    width: 300px;
+    max-width: 50%;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     height: auto;
     margin-right: 20px;
@@ -131,7 +132,7 @@ nav a:hover {
 
 .discover-text{
     color: #555;
-    margin-right: 20px;
+    margin-right: 10px;
     
 }
 .discover-text p{
@@ -200,7 +201,7 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 .interact, .grow{
     flex: 1;
@@ -219,7 +220,7 @@ nav a:hover {
 .content {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 60px;
     margin-bottom: 10px;
 }
 .about, .discover{
@@ -297,7 +298,7 @@ footer {
   
 .container {
     max-width: 1200px;
-   padding: 10px;
+    padding: 10px;
     
 }
   
