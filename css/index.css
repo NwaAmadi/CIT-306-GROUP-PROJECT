@@ -318,4 +318,10 @@ footer {
 .social-media img {
     width: 30px;
 }
-  
+#flier{
+    margin-left: 15%;
+    border-radius: 20px;
+    height: 600px;
+    width: 900px;
+    
+}

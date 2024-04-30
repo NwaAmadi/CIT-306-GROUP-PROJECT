@@ -119,3 +119,40 @@ nav a:hover {
 .speaker-info p {
     color: #555;
 }
+.vc-class{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.vc{
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 400px; 
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.vc img{
+    max-width: 500%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 280px;
+}
+.amadi{
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 300px; 
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.amadi img{
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+}
