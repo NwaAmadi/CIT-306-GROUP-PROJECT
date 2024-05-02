@@ -1,13 +1,12 @@
 body{
-    background-image: url(/assets/Background.jpeg);
-    background-image: linear-gradient(rgba(255, 255, 255, 0.829),rgb(255, 255, 255));
+    background-color: #f1f1ce;
 }
 
 body, ul {
     margin: 0;
     padding: 0;
     font-family: Inter, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica, Arial, sans-serif;
-    background-color: #b9b9b9;
+
 }
 .image-container{
     position: absolute;
@@ -64,7 +63,7 @@ nav a:hover {
 }
 
 .banner {
-    background-image: linear-gradient(rgba(0,0,1,0.8),rgba(0,0,1,0.8)), url('../assets/banner1.jpeg');
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../assets/banner1.jpeg');
     background-size: cover;
     height: 400px;
     display: flex;
@@ -289,17 +288,18 @@ body {
   }
   
 footer {
-    background-color: #696868;
-    padding: 10px;
-    border-radius: 10px;
+    background-color: #333;
+    padding: 20px 0;
+    color: #fff;
+    padding: 30px;
     margin: 10px;
-   
+    border-radius: 5px;
 }
   
-.container {
-    max-width: 1200px;
-    padding: 10px;
-    
+footer .container {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
 }
   
 .logo img {
