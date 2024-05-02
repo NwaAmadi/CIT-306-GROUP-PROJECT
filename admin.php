@@ -1,10 +1,47 @@
-<?php
-    require_once 'C:\wamp64\www\CIT-306-GROUP-PROJECT\config\db.php';
-    require_once 'C:\wamp64\www\CIT-306-GROUP-PROJECT\config\function.php';
-    
 
-    $result = display_data();
+<?php
+// My Database connection
+require_once 'C:\wamp64\www\CIT-306-GROUP-PROJECT\config\db.php';
+require_once 'C:\wamp64\www\CIT-306-GROUP-PROJECT\config\function.php';
+$result=display_data();
+
+if(isset($_GET['download'])){
+
+
+$query = "SELECT * FROM your_table";
+
+
+$filename = 'Admin.csv';
+
+
+$file = fopen('php://temp', 'w');
+
+
+$headers = array('ID', 'First Name', 'Last Name', 'Email', 'Country', 'City', 'Phone', 'Gender', 'Date Registered');
+fputcsv($file, $headers);
+
+
+while ($row = mysqli_fetch_assoc($result)) {
+   fputcsv($file, $row);
+}
+
+
+rewind($file);
+
+header('Content-Type: text/csv');
+header('Content-Disposition: attachment; filename="' . $filename . '"');
+
+fpassthru($file);
+
+fclose($file);
+
+mysqli_close($con);
+}
+
+else{
 ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,6 +93,13 @@
                                 }
                             ?>
                         </table>
+                        <form method='get' action='admin.php?download'>
+                            <input type="submit" id="Download" name='download' value='Download Spreadsheet' 
+                            style="background-color: #007bff; color: white; margin: 10px; margin-left: 42%; 
+                            margin-top: 30px; padding: 10px 20px; 
+                            border: none; border-radius: 5px; cursor: pointer;" />
+                        </form>
+
                     </div>
                 </div>
             </div>
@@ -63,3 +107,7 @@
     </div>
 </body>
 </html>
+
+<?php
+ }
+?>
