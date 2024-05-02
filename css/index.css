@@ -64,7 +64,7 @@ nav a:hover {
 }
 
 .banner {
-    background-image: url('../assets/banner1.jpeg');
+    background-image: linear-gradient(rgba(0,0,1,0.8),rgba(0,0,1,0.8)), url('../assets/banner1.jpeg');
     background-size: cover;
     height: 400px;
     display: flex;

@@ -1,7 +1,7 @@
 <?php
     require_once 'C:\wamp64\www\CIT-306-GROUP-PROJECT\config\db.php';
     require_once 'C:\wamp64\www\CIT-306-GROUP-PROJECT\config\function.php';
-    require_once 'C:\wamp64\www\CIT-306-GROUP-PROJECT\config\function.php';
+    
 
     $result = display_data();
 ?>
