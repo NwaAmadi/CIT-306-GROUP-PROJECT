@@ -8,7 +8,7 @@ $result=display_data();
 if(isset($_GET['download'])){
 
 
-$query = "SELECT * FROM your_table";
+$query = "SELECT * FROM user_details";
 
 
 $filename = 'Admin.csv';
